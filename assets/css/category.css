@@ -1,0 +1,42 @@
+.search{
+    text-align: center;
+    justify-content: space-between;
+    padding: 2% 5%;
+}
+.right, .left{
+    position: relative;
+    width: 40%;
+    margin: auto;
+}
+.report-category .btn{
+    margin: 20px 10px !important;
+    margin-bottom: -10px !important;
+}
+.right input[type="text"], .left input[type="text"]{
+    padding: 10px 20px;
+    letter-spacing: 1.5px;
+    border-radius: 10px;
+    border: 2px solid #3089ED;
+    margin: 0px 10px;
+    background: transparent;
+    width: 100%;
+    outline: none;
+}
+.right input[type="submit"], .left input[type="submit"]{
+    position: absolute;
+    top: 4px;
+    right: -5px;
+    padding: 8px 25px;
+    color: white;
+    border: none;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px
+}
+.view{
+    max-height: 75dvh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 0px 5px;
+}
+
+

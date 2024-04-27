@@ -1,0 +1,92 @@
+.profile_head{
+    width: 100%;
+    padding: 5% 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.profile_head .image img{
+    width: 220px;
+    height: 120px;
+
+}
+.profile_head .name{
+    display: flex;
+    align-items: center;
+}
+.profile_head .name h1{
+    font-size: 30px;
+}
+.profile_body{
+    width: 100%;
+    padding: 1% 9%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 13%;
+    margin-top: -3%;
+}
+.profile_body form{
+    width: 35%;
+}
+.profile_body label{
+    width: 100%;
+    text-align: left;
+}
+.profile_body .file_holder{
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.profile_body .file_holder .file::-webkit-file-upload-button{
+    background-color: #2780EB;
+    color: white;
+    padding: 7px 20px;
+    border: none;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.profile_body .btn_add_new_product{
+    margin: 10px 2px auto;
+    padding: 5px 25px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border: none;
+    outline: none;
+}
+
+.profile_body label input{
+    padding: 5px 20px;
+    margin: 5px 0px;
+    font-size: 14px;
+    width: 100%;
+    border: none !important;
+    outline: #2780EB !important;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.profile_body label input[type="file"]{
+    padding: 0;
+    cursor: pointer;
+}
+.profile_body label select{
+    padding: 7px 20px;
+    margin: 5px 0px;
+    font-size: 14px;
+    width: 100%;
+    border: none !important;
+    outline: #2780EB !important;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+
+}

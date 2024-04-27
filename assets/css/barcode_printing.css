@@ -1,0 +1,43 @@
+.barcode-container{
+    width: 100%;
+    padding: 15% 9%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 13%;
+}
+.barcode-left form{
+    width: 40%;
+}
+.barcode-left label{
+    width: 100%;
+    text-align: left;
+}
+.barcode-left .btn_add_new_product{
+    margin: 10px 2px auto;
+    padding: 5px 25px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border: none;
+    outline: none;
+}
+
+.barcode-left label input{
+    padding: 5px 20px;
+    margin: 5px 0px;
+    font-size: 14px;
+    width: 100%;
+    border: 1.5px solid #023495;
+    outline: none;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.barcode-right{
+    width: 60%;
+    height: fit-content;
+}

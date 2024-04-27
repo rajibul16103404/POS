@@ -1,0 +1,65 @@
+form{
+    width: 40%;
+    height: fit-content;
+    margin: auto;
+    padding: 30px 50px;
+    padding-bottom: 100px;
+    position: relative;
+    border: 3px solid;
+    border-image: linear-gradient(to right, #4CAF50 50%, #3089ED 100%) 1 stretch repeat;
+    margin-top: 2%;
+    border-bottom: none;
+}
+form label{
+    width: 100%;
+    margin: 0px 0px;
+}
+form label span{
+    font-size: 18px;
+    line-height: 50px;
+    color: #3690EE;
+}
+form label input, select{
+    width: 100%;
+    padding: 10px 30px;
+    background: transparent;
+    border:2px solid #3690EE;
+    outline: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: #3690EE;
+    font-size: 16px;
+}
+form label select{
+    font-size: 16px;
+}
+form label input:nth-child{
+    margin-bottom: 50px;
+}
+.button{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.button a{
+    width: 50%;
+}
+.button a .btn{
+    width: 100%;
+}
+.button .btn{
+    width: 50%;
+    padding: 10px !important;
+    border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    -ms-border-radius: 0px !important;
+    -o-border-radius: 0px !important;
+    font-size: 18px;
+}

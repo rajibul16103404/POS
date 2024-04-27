@@ -1,0 +1,68 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head{
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.head img{
+    width: 30%;
+    height: 30%;
+}
+.sup_details{
+    padding: 20px 30px;
+    border: 1px solid #328CED;
+    margin: 20px 0px;
+    box-shadow: 0px 0px 2px #328CED;
+}
+.sup_details table{
+    width: 100%;
+}
+.sup_details table tr td:last{
+    text-align: left;
+    display: block;
+}
+form{
+    width: 100%;
+}
+input, button, select{
+    display: none;
+}
+.table{
+    width: 100%;
+    text-align: center;
+    border-spacing: 0 !important;  
+}
+.table tr td{
+    padding: 10px 0px;
+    margin: 0 !important;
+    border-bottom: 2px solid white;
+}
+.table tr td:last-child{
+    display: none;
+}
+.table thead th{
+    background: #328CED;
+    padding: 10px;
+    color: white;
+    border-right: 2px solid white;
+}
+.table thead th:last-child{
+    display: none;
+}
+.total{
+    background: #328CED;
+    color: white;
+}
+.total td{
+    padding: 30px 0px;
+    font-weight: bolder;
+    font-size: 20px;
+    border-right: 2px solid white;
+    
+}

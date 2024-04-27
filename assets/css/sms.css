@@ -1,0 +1,30 @@
+.sms{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.holder{
+    height: 85vh;
+    overflow-y: scroll;
+}
+input[type="checkbox"]{
+    width: 1.5em;
+    height: 1.5rem;
+    accent-color: #007BFF; 
+    align-items: center;
+}
+textarea{
+    outline: 2px solid #007BFF;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 20px;
+    font-size: 16px !important;
+}
+.btn{
+    width: 50%;
+    font-size: 18px !important;
+    margin-top: 20px;
+}
